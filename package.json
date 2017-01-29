@@ -1,0 +1,30 @@
+{
+  "name": "wheres-here",
+  "version": "1.0.0",
+  "description": "Promisified Geolocation",
+  "main": "where-is-here.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/wheres-here.git"
+  },
+  "keywords": [
+    "promisified",
+    "navigator",
+    "geolocation",
+    "location"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/wheres-here/issues"
+  },
+  "homepage": "https://github.com/gluons/wheres-here#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-gluons": "^1.0.4"
+  }
+}

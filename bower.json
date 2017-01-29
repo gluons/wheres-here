@@ -1,0 +1,23 @@
+{
+  "name": "wheres-here",
+  "description": "Promisified Geolocation",
+  "main": "where-is-here.js",
+  "authors": [
+    "Saran Tanpituckpong <sarunta@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "promisified",
+    "navigator",
+    "geolocation",
+    "location"
+  ],
+  "homepage": "https://github.com/gluons/wheres-here",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
