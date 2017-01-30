@@ -1,0 +1,7 @@
+{
+	"extends": "gluons",
+	"env": {
+		"amd": true,
+		"mocha": true
+	}
+}
