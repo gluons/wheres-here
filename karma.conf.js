@@ -62,7 +62,17 @@ module.exports = function (config) {
 
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-		browsers: ['Firefox'],
+		browsers: ['FirefoxGeo'],
+
+		customLaunchers: {
+			FirefoxGeo: {
+				base: 'Firefox',
+				prefs: {
+					'geo.prompt.testing': true,
+					'geo.prompt.testing.allow': true
+				}
+			}
+		},
 
 
 		// Continuous Integration mode

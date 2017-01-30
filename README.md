@@ -15,7 +15,8 @@ Get current geolocation by [Geolocation API](https://developer.mozilla.org/en-US
 bower install wheres-here
 ```
 
-**Via [NPM](https://www.npmjs.com/):**  
+**Via [NPM](https://www.npmjs.com/):**
+
 [![NPM](https://nodei.co/npm/wheres-here.png)](https://www.npmjs.com/package/wheres-here)
 ```
 npm install wheres-here

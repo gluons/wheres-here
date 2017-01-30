@@ -5,7 +5,7 @@ describe('Where is here?', function () {
 	this.timeout(5000);
 
 	it('should fulfil or reject Promise from Geolocation API', () => {
-		return here({ timeout: 1000 }).then(
+		return here().then(
 			position => {
 				assert.property(position, 'coords');
 				assert.property(position, 'timestamp');
