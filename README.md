@@ -27,7 +27,8 @@ yarn add wheres-here
 ```
 
 ## Usage
-You can bundle `wheres-here` with [webpack](https://github.com/webpack/webpack).
+
+You can bundle `wheres-here` with [webpack](https://github.com/webpack/webpack) for using in browser.
 
 ```javascript
 const here = require('wheres-here');
@@ -40,3 +41,33 @@ here().then(position => {
 	console.error(err); // Oh! It's error.
 });
 ```
+
+Or directly import to your webpage.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="wheres-here.js"></script>
+</head>
+<body>
+	<script>
+		here().then(p => {
+			console.log(p);
+		}).catch(e => {
+			console.error(e);
+		});
+	</script>
+</body>
+</html>
+```
+
+## API
+
+### here([options])
+#### options
+Type: [`PositionOptions`](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions)
+
+Options for [`Geolocation.getCurrentPosition()`](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition)
