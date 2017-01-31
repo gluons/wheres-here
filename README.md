@@ -17,7 +17,8 @@ bower install wheres-here
 
 **Via [NPM](https://www.npmjs.com/):**
 
-[![NPM](https://nodei.co/npm/wheres-here.png)](https://www.npmjs.com/package/wheres-here)
+[![NPM](https://nodei.co/npm/wheres-here.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/wheres-here)
+
 ```
 npm install wheres-here
 ```
@@ -44,13 +45,18 @@ here().then(position => {
 
 Or directly import to your webpage.
 
+> You can use [unpkg CDN](https://unpkg.com):
+```
+https://unpkg.com/wheres-here
+```
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script src="wheres-here.js"></script>
+	<script src="https://unpkg.com/wheres-here"></script>
 </head>
 <body>
 	<script>
@@ -68,6 +74,7 @@ Or directly import to your webpage.
 
 ### here([options])
 #### options
-Type: [`PositionOptions`](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions)
+Type: [`PositionOptions`](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions)  
+Return: [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 Options for [`Geolocation.getCurrentPosition()`](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition)
