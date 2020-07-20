@@ -1,5 +1,5 @@
 {
-	"extends": "gluons",
+	"extends": "gluons/esnext",
 	"env": {
 		"amd": true,
 		"mocha": true
